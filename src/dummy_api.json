@@ -1,0 +1,35 @@
+{
+    "get": {
+        "/auth": {"access": "ok"},
+        "/auth/redirect": "ok",
+        "/auth/me": {
+            "uid": "dummy",
+            "username": "yg.song",
+            "display_name": "dxnlab",
+            "profile_image": null,
+            "organizations": [
+                "dxnlab.com",
+                "pengtai.kr"
+            ]
+        },
+        "/auth/logout": "ok",
+
+        "/project": [
+            {"owner": "dxnlab.com", "codename": "restforus", "models": { "rev": 1, "length": 5, "updated_at": "2020-01-05", "updated_by": "yg.song" }, "paths": {"rev": 2, "length": 9, "updated_at": "2019-12-31", "updated_by": "yg1.song" }  },
+            {"owner": "dxnlab.com", "codename": "barephp", "models": { "rev": 1, "length": 5, "updated_at": "2020-01-05", "updated_by": "yg.song" }, "paths": {"rev": 2, "length": 9, "updated_at": "2019-12-31", "updated_by": "yg1.song" }  },
+            {"owner": "dxnlab.com", "codename": "workbench", "models": { "rev": 1, "length": 5, "updated_at": "2020-01-05", "updated_by": "yg.song" }, "paths": {"rev": 2, "length": 9, "updated_at": "2019-12-31", "updated_by": "yg1.song" }  },
+            {"owner": "pengtai.kr", "codename": "reportings", "models": { "rev": 1, "length": 5, "updated_at": "2020-01-05", "updated_by": "yg.song" }, "paths": {"rev": 2, "length": 9, "updated_at": "2019-12-31", "updated_by": "yg1.song" }  },
+            {"owner": "pengtai.kr", "codename": "monitoring", "models": { "rev": 1, "length": 5, "updated_at": "2020-01-05", "updated_by": "yg.song" }, "paths": {"rev": 2, "length": 9, "updated_at": "2019-12-31", "updated_by": "yg1.song" }  },
+            {"owner": "pengtai.kr", "codename": "tags", "models": { "rev": 1, "length": 5, "updated_at": "2020-01-05", "updated_by": "yg.song" }, "paths": {"rev": 2, "length": 9, "updated_at": "2019-12-31", "updated_by": "yg1.song" }  }
+        ],
+        "/project/dxnlab.com/restforus": {
+            "revision": 1,
+            "models": [
+
+            ],
+            "endpoints": [
+
+            ]
+        }
+    }
+}
